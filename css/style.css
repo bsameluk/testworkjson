@@ -1,0 +1,137 @@
+ 
+body { 
+	margin: 0;
+	padding: 0;
+}
+.container {
+} 
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-size: 1.25vw;
+}
+.element1 {
+	flex-shrink: 0;
+	padding: 5vmin;
+	background-color: rgb(243,243,243) ;
+}
+
+@media (max-width: 780px) {
+	.element1 {
+		display: none;
+	}
+}
+
+.ContainerPost {
+	margin: 3vmin 2vmin;
+	padding: 2vmin 3vmin;
+	border: 1px rgb(243,243,243) solid;
+}
+.titlePost h3 {
+	font-size: 1.25vw;
+	margin: 0.5vmin 0 1vmin 0;
+	color: blue;
+}
+.TopPostFlex {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.PostElem {
+	margin-right: 10px;
+	padding-right: 10px;
+	border-right: 1px rgb(127,127,127) solid;
+}
+.PostElem2 {
+	color: blue;
+	cursor: pointer;
+}
+.options {
+	display: inline-block;
+}
+.nameTop {
+	text-transform: capitalize;
+	color:rgb(127,127,127);
+}
+.valueTop {
+	padding-left: 1vmin;
+}
+.PostText {
+	overflow: hidden;
+	padding: 3vmin 0;
+}
+
+
+
+.ChoseCategoty h3, 
+.ChoseSubcategoty h3, 
+.ChoseRating h3, 
+.ChoseBudget h3{
+	font-size: 1.3vw;
+	margin: 0.5em 0;
+}
+.ChoseCategoty select,
+.ChoseBudget select{
+	width: 95%;
+	height: 4.5vmin;
+	color: rgb(51,51,51) ;
+}
+.ChoseSubcategoty, 
+.ChoseRating, 
+.ChoseBudget {
+	margin-top: 5vmin;
+}
+.ChoseSubcategoty div, 
+.ChoseRating div{
+	padding: 0.5vmin 0;
+	color: rgb(25,25,25) ;
+}
+.ChoseSubcategoty span, 
+.ChoseRating span {
+	font-weight: bold;
+}
+
+.BottomPostFlex {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.BottomPostFlex div {
+	display: inline-block;
+	padding: 0.4vmax;
+}
+.BottomPostFlex div:nth-child(1) {
+	padding: 0.4vmax 0;
+}
+.BottomPostFlex div:nth-child(2) {
+	margin-right: 10px;
+	padding-right: 10px;
+	border-right: 1px rgb(127,127,127) solid;
+}
+.nameBottom {
+	text-transform: capitalize;
+	color:rgb(127,127,127);
+}
+.valueSkills {
+	background: rgb(243,243,243) ;
+	color:rgb(127,127,127);
+	margin-right: 10px;
+}
+.Client div {
+	display: inline-block;
+}
+.Client img {
+	position: relative;
+	top: 0.2vmax;
+	width: 13vmin;
+}
+.valueRating {
+	margin-left: 10px;
+}
+.form {
+	padding: 10vmin;
+	margin: auto;
+	text-align: center;
+}
+
